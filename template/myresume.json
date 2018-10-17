@@ -1,0 +1,69 @@
+{
+	"tileimage": "",
+	"themecolor": "",
+
+	"personaldata": {
+		"image": "",
+		"name": "",
+		"position": "",
+		"shortbio": "",
+		"location": "",
+		"socialmedia": [
+			{
+				"icon": "",
+				"url": "",
+				"tooltip": ""
+			}
+		],
+		
+		"workhistory": [
+			{
+				"jobtitle": "",
+				"description": "",
+				"website": "",
+				"tags": [
+				],
+				"from": "",
+				"until": "",
+				"achievements": [
+					{
+						"title": "",
+						"description": "",
+						"tags": [
+						],
+						"url": "",
+						"images": [	
+						]
+					}
+				]
+			}
+		]
+	},
+
+	"classifiedads": [
+		{
+			"caption": "",
+			"backgroundcolor": "",
+			"ads": [
+				{
+					"title": "",
+					"description": "",
+					"url": "",
+					"progress": 100,
+					"images": [
+					],
+					"tags": [
+					]
+				}
+			]
+		}
+	],
+
+	"getintouch": {
+		"caption": "",
+		"title": "",
+		"description": "",
+		"mode": "",
+		"url": ""
+	}
+}
