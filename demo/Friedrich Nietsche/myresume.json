@@ -1,9 +1,9 @@
 {
-	"tileimage": "myimages/Sils-Maria-Engadin-GR-Schweiz.jpg",
+	"tileimage": "myimages/silsmaria.jpg",
 	"themecolor": "#283747",
 
 	"personaldata": {
-		"image": "myimages/220px-Nietzsche187a.jpg",
+		"image": "myimages/portrait2.jpg",
 		"name": "Friedrich Nietzsche (1844-1900)",
 		"position": "Philosopher",
 		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history.",
