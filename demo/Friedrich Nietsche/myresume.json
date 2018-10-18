@@ -3,7 +3,7 @@
 	"themecolor": "#283747",
 
 	"personaldata": {
-		"image": "myimages/portrait2.jpg",
+		"image": "myimages/portrait1.jpg",
 		"name": "Friedrich Nietzsche (1844-1900)",
 		"position": "Philosopher",
 		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history.",
@@ -14,6 +14,6 @@
 				"url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
 				"tooltip": "Wikipedia"
 			}
-		],
+		]
 	}
 }
