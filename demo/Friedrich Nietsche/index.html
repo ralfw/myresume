@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/App.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/vis.min.js"></script>
+<link href="css/vis.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<header>  
+  <div id="header" class="App-header">
+   </div>
+</header>
+<section> 
+    <div class="App-section">
+        <div class="App-section-container">
+          <div class="App-section-container-photo">
+            <img class="profilePic" id="profile-pic"></img>
+          </div>
+          <div class="App-section-container-profile">
+              <h1 id="name"></h1>
+              <h2 id="position"></h2>
+              <p class="shortBio" id="shortBio"></p>
+              <div id="myList" class="socialmedia">             
+              </div>
+          </div>
+          <div>
+            <a class="locationlink" href="http://maps.google.com/maps" id="q" target="_blank">
+              <span class="location">
+                <i class="fa fa-map-marker"></i> 
+                <span id="location"></span>
+              </span>
+            </a>
+            </div>
+        </div>
+    </div>
+
+  <div class="work-history">
+    <h4 class="work-history-title">Work History</h4>
+    <div class="work-history-timeline">
+    <div id="visualization"></div>
+   </div>
+  </div>
+  <div class="sections themeBackgroundLight animated fadeIn">
+    <section class="resume-section timeline-strict">
+    <ul id="workHistory" class="points clearfix">           
+    </ul>
+  </section>
+  </div>
+</section>
+
+
+<div id="classifiedAd"></div>
+<div id= "getInTouch"></div>
+
+<footer>
+
+<!-- The Modal -->
+
+<div id="myModal" class="modal"></div>
+
+</footer>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+  $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+  }); 
+</script>
+</body>
+</html>
+
+

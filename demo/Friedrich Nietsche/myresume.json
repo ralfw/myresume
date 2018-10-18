@@ -1,0 +1,19 @@
+{
+	"tileimage": "myimages/Sils-Maria-Engadin-GR-Schweiz.jpg",
+	"themecolor": "#283747",
+
+	"personaldata": {
+		"image": "myimages/220px-Nietzsche187a.jpg",
+		"name": "Friedrich Nietzsche (1844-1900)",
+		"position": "Philosopher",
+		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history.",
+		"location": "Sils Maria, Engadin, Switzerland",
+		"socialmedia": [
+			{
+				"icon": "web",
+				"url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+				"tooltip": "Wikipedia"
+			}
+		],
+	}
+}
