@@ -10,7 +10,7 @@
     rawFile.send(null);
 }
 
-
+//to parse JSON
 readTextFile("./myresume.json", function(text){
     var data = JSON.parse(text);
     var titleImage=data.titleimage;
@@ -93,20 +93,19 @@ readTextFile("./myresume.json", function(text){
         document.getElementById('myList').innerHTML +=spanObj;      
     }             
 }
-	document.getElementById('header').style.backgroundImage="url("+titleImage+")";
-	document.getElementById('profile-pic').src=profilePic; 
- 	document.getElementById('name').innerHTML=name; 
-	document.getElementById('position').innerHTML=position; 
-	document.getElementById('shortBio').innerHTML=shortbio; 
-	document.getElementById('location').innerHTML=location; 
+  document.getElementById('header').style.backgroundImage="url("+titleImage+")";
+  document.getElementById('profile-pic').src=profilePic; 
+  document.getElementById('name').innerHTML=name; 
+  document.getElementById('position').innerHTML=position; 
+  document.getElementById('shortBio').innerHTML=shortbio; 
+  document.getElementById('location').innerHTML=location; 
     document.getElementById('q').href += '?q='+ location;
     document.title= "About: "+name;
 
-//TimeLine
-
+//TimeLine -checking whether workhistory is present.
+if(data.personaldata.workhistory!==undefined){
   // DOM element where the Timeline will be attached
   var container = document.getElementById('visualization');
-  // Create a DataSet (allows two way data-binding)
   var dataSet=[];
   data.personaldata.workhistory.map(elem=>{
     if(elem.from!==undefined && elem.until!==undefined){
@@ -140,16 +139,19 @@ readTextFile("./myresume.json", function(text){
 
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, options);
+  }
+
 //================end of workhistory sequential========================
 
 
 
 //================create a Track Record (achievements)=================
- data.personaldata.workhistory.slice(0).reverse().map(elem=>{
+if(data.personaldata.workhistory!==undefined){
+data.personaldata.workhistory.slice(0).reverse().map(elem=>{
+
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-];
-    
+];    
   if(elem.from!==undefined && elem.until!==undefined){
   const [year, month, day] = elem.from.split("-");
    var fromDate= new Date(year,month-1,day); 
@@ -165,7 +167,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
    if(elem.until==="now"){
    toMonth= ""; 
    }
-   //calculate year moths
+   //calculate year months
    var diff = Math.floor(toDate.getTime() - fromDate.getTime());
     var dayonly = 1000 * 60 * 60 * 24;
     var days = Math.floor(diff/dayonly);
@@ -184,10 +186,14 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         calculateYearMonth=monthNew+"mth";
     }
     var imageBox="";
+    //loop through achievents if present
+    if(elem.achievements!==undefined){
     var achievements= elem.achievements.map(data=>{
+        if(data.tags!==undefined){
         var tags=data.tags.map(tag=>{
             return `&nbsp;<span id="tagModal" class="resume-skill comma-seperated comma-blocks">`+tag+`</span>`
         });
+         }
             //to get url widget
             var embedLink="";
             if(data.images!==undefined){
@@ -214,7 +220,9 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
               `+imageBox+`</div>
               </div>`+ embedLink     
     }).join('');
-
+    }else{
+      achievements="";
+    }
      
 
 var trackRecord = `<li class='profile-resume normal right first-in-experience has-experience'>
@@ -248,11 +256,14 @@ var trackRecord = `<li class='profile-resume normal right first-in-experience ha
             </div>
           </div>           
         </li>`
-    }else{
-
+    }
+  //if(elem.from!==undefined && elem.until!==undefined)
+    else{
+          if(elem.tags!==undefined){
            var tags=elem.tags.map(tag=>{
             return `&nbsp;<span id="tagModal" class="resume-skill comma-seperated comma-blocks">`+tag+`</span>`
         });
+         }
        var trackRecord=  `<li class="">
           
           <div class="point-body point-details" >
@@ -277,12 +288,9 @@ var trackRecord = `<li class='profile-resume normal right first-in-experience ha
         
     }  
       
-
-
-        document.getElementById('workHistory').innerHTML +=trackRecord;
+  document.getElementById('workHistory').innerHTML +=trackRecord;
 //============model on click of image ====================================     
       $('.imageBox-image').click(function(){
-        debugger;
         var bg =$(this).css('background-image');
          bg = bg.replace('url(','').replace(')','');
          bg=bg.replace(/['"]+/g, '');
@@ -332,11 +340,13 @@ document.getElementById('myModal').innerHTML +=`<div class="modal-content-image"
 }); 
 //=========the image click modal code end here=========================
 });
-
+}
 
  //=====================clssified Ad====================================
+ if(data.classifiedads!==undefined){
 var innerAd="";
 var classifiedAd = data.classifiedads.map(elem=>{
+  if(elem.ads!==undefined){
      innerAd= elem.ads.map(ad=>{
         var progress="";
         var imageBox="";
@@ -353,9 +363,11 @@ var classifiedAd = data.classifiedads.map(elem=>{
             <span class="underline">`+ad.url+`</span>
             </a></h4>`
         }
+        if(ad.tags!==undefined){
         var tags=ad.tags.map(tag=>{
             return `&nbsp;<span id="tagModal" class="taglist">`+tag+`</span>`
         });
+      }
         if(ad.images!==undefined){
             imageBox=ad.images.map(image=>{
             return `
@@ -381,7 +393,9 @@ var classifiedAd = data.classifiedads.map(elem=>{
                 </div>
               </div>
             </li>`
+   
     }).join('');
+   }
 return `<section class ="resume-section blocks" style="background-color:`+elem.backgroundcolor+`;">
     <h4 class="section-title themeColorDark">`+elem.caption+`</h4>
     <ul class="points clearfix">`+innerAd +`</ul>
@@ -392,12 +406,11 @@ return `<section class ="resume-section blocks" style="background-color:`+elem.b
 document.getElementById('classifiedAd').innerHTML +=classifiedAd;     
 
 //============model on click of image ====================================     
-      $('.imageBox-image').click(function(){
-        debugger;
-        var bg =$(this).css('background-image');
-         bg = bg.replace('url(','').replace(')','');
-         bg=bg.replace(/['"]+/g, '');
-        $("body").addClass("modal-open");
+  $('.imageBox-image').click(function(){
+  var bg =$(this).css('background-image');
+  bg = bg.replace('url(','').replace(')','');
+  bg=bg.replace(/['"]+/g, '');
+  $("body").addClass("modal-open");
 
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -441,6 +454,7 @@ document.getElementById('myModal').innerHTML +=`<div class="modal-content-image"
 </div>`; 
 
 }); 
+}
 //=========the image click modal code end here=========================
 
 //get in touch section
@@ -478,7 +492,8 @@ var tagEntry=[];
 $('span#tagModal').click(function(){
     var tagName = $(this).text();
     $("body").addClass("modal-open");
-//person data 
+//personal data 
+if(data.personaldata.workhistory!==undefined){
    data.personaldata.workhistory.reverse().forEach(function (elem) {
       if(elem.achievements===undefined){
         if(elem.tags.includes(tagName)){
@@ -492,8 +507,11 @@ $('span#tagModal').click(function(){
       });
     }
 }); 
-
+}
     //here the complete json parent avialble
+
+    if(data.classifiedads!==undefined){
+
   data.classifiedads.forEach(function (elem) {
       elem.ads.filter(function (adElem) {
         if(adElem.tags.includes(tagName)){
@@ -501,7 +519,7 @@ $('span#tagModal').click(function(){
       }
       });
 });
-console.log(tagEntry);
+}
 
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -574,8 +592,6 @@ window.onclick = function(event) {
   }).join('');
 
    tagEntry =[];
-   // Get the <span> element that closes the modal
-//var span = document.getElementById("close");
 $(function() {
     $('#close').click(function(){
     modal.style.display = "none";
