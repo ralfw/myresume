@@ -18,13 +18,13 @@
 		
 		"workhistory": [
 			{
+				"from": "",
+				"until": "",
 				"jobtitle": "",
 				"description": "",
 				"website": "",
 				"tags": [
 				],
-				"from": "",
-				"until": "",
 				"achievements": [
 					{
 						"title": "",

@@ -41,6 +41,15 @@
 				"description": "",
 				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Youth_(1844–1868)",
 				"tags": [
+				],
+				"achievements": [
+					{
+						"title": "Germania",
+						"description": "Led a music and literature club during summers in Naumburg.",
+						"tags": [ "Poetry", "Music"	],
+						"url": "https://de.wikipedia.org/wiki/Landesschule_Pforta",
+						"images": [	"myimages/youth1861.jpg" ]
+					}
 				]
 			},
 			{
@@ -53,5 +62,13 @@
 				]
 			}
 		]
+	}
+
+	"getintouch": {
+		"caption": "Are You Curious?",
+		"title": "There's a lot to read by (and about) Nietzsche!",
+		"description": "Nietzsche has written more than 15 books which have been translated into all major languages. Check them out. You'll be amazed by his writing.",
+		"mode": "",
+		"url": "https://amzn.to/2PbZEba"
 	}
 }
