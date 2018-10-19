@@ -13,7 +13,7 @@
 
 readTextFile("./myresume.json", function(text){
     var data = JSON.parse(text);
-    var tileImage=data.tileimage;
+    var titleImage=data.titleimage;
     var profilePic=data.personaldata.image;
     var name=data.personaldata.name;
     var position=data.personaldata.position;
@@ -93,7 +93,7 @@ readTextFile("./myresume.json", function(text){
         document.getElementById('myList').innerHTML +=spanObj;      
     }             
 }
-	document.getElementById('header').style.backgroundImage="url("+tileImage+")";
+	document.getElementById('header').style.backgroundImage="url("+titleImage+")";
 	document.getElementById('profile-pic').src=profilePic; 
  	document.getElementById('name').innerHTML=name; 
 	document.getElementById('position').innerHTML=position; 
