@@ -62,12 +62,12 @@
 				]
 			}
 		]
-	}
+	},
 
 	"getintouch": {
 		"caption": "Are You Curious?",
 		"title": "There's a lot to read by (and about) Nietzsche!",
-		"description": "Nietzsche has written more than 15 books which have been translated into all major languages. Check them out. You'll be amazed by his writing.",
+		"description": "Nietzsche has written more than 15 books which have been translated into all major languages. Check them out. You'll be amazed by his thoughts and his writing style.",
 		"mode": "",
 		"url": "https://amzn.to/2PbZEba"
 	}
