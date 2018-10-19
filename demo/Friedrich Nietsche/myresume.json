@@ -1,5 +1,5 @@
 {
-	"tileimage": "myimages/silsmaria.jpg",
+	"titleimage": "myimages/silsmaria.jpg",
 	"themecolor": "#283747",
 
 	"personaldata": {
@@ -13,6 +13,44 @@
 				"icon": "web",
 				"url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
 				"tooltip": "Wikipedia"
+			},
+			{
+				"icon": "instagram",
+				"url": "https://www.instagram.com/explore/tags/nietzschequotes/"
+			},
+			{
+				"icon": "facebook",
+				"url": "https://www.facebook.com/FriedrichNietzscheAuthor/"
+			},
+			{
+				"icon": "twitter",
+				"url": "https://twitter.com/PureNietzsche"
+			},
+			{
+				"icon": "web",
+				"url": "https://www.brainyquote.com/authors/friedrich_nietzsche",
+				"tooltip": "Brainy Quote"
+			}
+		],
+
+		"workhistory": [
+			{
+				"from": "1844-10-15",
+				"until": "1868-12-31",
+				"jobtitle": "Youth",
+				"description": "",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Youth_(1844–1868)",
+				"tags": [
+				]
+			},
+			{
+				"from": "1869-01-01",
+				"until": "1878-12-31",
+				"jobtitle": "Professor",
+				"description": "University of Basel",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Professor_at_Basel_(1869–1878)",
+				"tags": [
+				]
 			}
 		]
 	}
