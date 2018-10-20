@@ -6,7 +6,7 @@
 		"image": "myimages/portrait1.jpg",
 		"name": "Friedrich Nietzsche (1844-1900)",
 		"position": "Philosopher",
-		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history. (Text and images taken from Wikipedia article linked to in social media section below.)",
+		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history. (Text and images taken from Wikipedia articles linked to in sections below.)",
 		"location": "Sils Maria, Engadin, Switzerland",
 		"socialmedia": [
 			{
@@ -46,7 +46,7 @@
 					{
 						"title": "Military service",
 						"description": "In 1867, Nietzsche signed up for one year of voluntary service with the Prussian artillery division in Naumburg. He was regarded as one of the finest riders among his fellow recruits, and his officers predicted that he would soon reach the rank of captain. However, in March 1868, while jumping into the saddle of his horse, Nietzsche struck his chest against the pommel and tore two muscles in his left side, leaving him exhausted and unable to walk for months. Consequently, Nietzsche turned his attention to his studies again, completing them in 1868.",
-						"tags": [ "Military" ]
+						"tags": [ "Military service" ]
 					},
 					{
 						"title": "Philosophical studies",
@@ -84,6 +84,57 @@
 				"description": "University of Basel",
 				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Professor_at_Basel_(1869–1878)",
 				"tags": [
+				],
+				"achievements": [
+					{
+						"title": "Decline in health",
+						"description": "In 1879, after a significant decline in health, Nietzsche had to resign his position at Basel. Since his childhood, various disruptive illnesses had plagued him, including moments of shortsightedness that left him nearly blind, migraine headaches, and violent indigestion.",
+						"tags": [ ]
+					},
+					{
+						"title": "Human, All to Human",
+						"description": "With the publication in 1878 of 'Human, All Too Human' (a book of aphorisms ranging from metaphysics to morality to religion to gender studies), a new style of Nietzsche's work became clear, highly influenced by Afrikan Spir's 'Thought and Reality' and reacting against the pessimistic philosophy of Wagner and Schopenhauer.",
+						"tags": [ "Philosophy", "Publications" ]
+					},
+					{
+						"title": "Dissatisfaction with Wagner",
+						"description": "[Nietzsche] was deeply disappointed by the Bayreuth Festival of 1876, where the banality of the shows and baseness of the public repelled him. He was also alienated by Wagner's championing of 'German culture', which Nietzsche felt a contradiction in terms as well as by Wagner's celebration of his fame among the German public. All this contributed to his subsequent decision to distance himself from Wagner.",
+						"tags": [ "Wagner" ]
+					},
+					{
+						"title": "Cultural critique",
+						"description": "Between 1873 and 1876, [Nietzsche] published four separate long essays: 'David Strauss: the Confessor and the Writer', 'On the Use and Abuse of History for Life', 'Schopenhauer as Educator' and 'Richard Wagner in Bayreuth'. These four later appeared in a collected edition under the title 'Untimely Meditations'. The essays shared the orientation of a cultural critique, challenging the developing German culture along lines suggested by Schopenhauer and Wagner.",
+						"tags": [ ],
+						"images": [	"myimages/nietzsche1872.jpg" ]
+					},
+					{
+						"title": "First book",
+						"description": "In 1872, Nietzsche published his first book, The Birth of Tragedy. However, his colleagues within his field, including Ritschl, expressed little enthusiasm for the work in which Nietzsche eschewed the classical philologic method in favor of a more speculative approach.",
+						"tags": [ "History", "Music", "Publications" ],
+						"images": ["myimages/birthoftragedy.jpg"],
+						"url": "https://en.m.wikipedia.org/wiki/The_Birth_of_Tragedy"
+					},
+					{
+						"title": "The Wagners",
+						"description": "Nietzsche had already met Richard Wagner in Leipzig in 1868 and later Wagner's wife, Cosima. Nietzsche admired both greatly and during his time at Basel frequently visited Wagner's house in Tribschen in Lucerne. The Wagners brought Nietzsche into their most intimate circle.",
+						"tags": [ "Wagner" ],
+						"images": []
+					},					
+					{
+						"title": "Franco-Prussian war",
+						"description": "Nietzsche served in the Prussian forces during the Franco-Prussian War (1870–1871) as a medical orderly. In his short time in the military, he experienced much and witnessed the traumatic effects of battle.",
+						"tags": [ "Military service" ]
+					},
+					{
+						"title": "Stateless",
+						"description": "Before moving to Basel, Nietzsche renounced his Prussian citizenship: for the rest of his life he remained officially stateless.",
+						"tags": [ ]
+					},
+					{
+						"title": "Professor of classical philology",
+						"description": "Nietzsche received a remarkable offer in 1869 to become professor of classical philology at the University of Basel in Switzerland. He was only 24 years old and had neither completed his doctorate nor received a teaching certificate ('habilitation'). He was [also] awarded an honorary doctorate by the University of Leipzig.",
+						"tags": [ "Teaching" ]
+					}
 				]
 			},
 			{
@@ -109,16 +160,9 @@
 
 	"classifiedads": [
 		{
-			"caption": "Was influenced by",
+			"caption": "Influences by",
 			"backgroundcolor": "WhiteSmoke",
 			"ads": [
-				{
-					"title": "Arthur Schopenhauer",
-					"description": "In 1865, Nietzsche thoroughly studied the works of Arthur Schopenhauer. He owed the awakening of his philosophical interest to reading Schopenhauer's 'The World as Will and Representation' and later admitted that Schopenhauer was one of the few thinkers whom he respected, dedicating the essay 'Schopenhauer as Educator' in the Untimely Meditations to him.",
-					"url": "https://en.m.wikipedia.org/wiki/Arthur_Schopenhauer",
-					"images": ["myimages/schopenhauer.jpg"],
-					"tags": ["Philosophy"]
-				},
 				{
 					"title": "Friedrich Hölderlin",
 					"description": "While at Pforta Nietzsche became acquainted with the work of the then almost-unknown poet Friedrich Hölderlin, calling him 'my favorite poet' and composing an essay in which he said that the mad poet raised consciousness to 'the most sublime ideality.'",
@@ -136,15 +180,84 @@
 					"description": "Ludwig Feuerbach's 'The Essence of Christianity' influenced young Nietzsche with its argument that people created God, and not the other way around.",
 					"url": "https://en.m.wikipedia.org/wiki/Ludwig_Feuerbach",
 					"tags": ["Religion", "History"]
+				},
+				{
+					"title": "Arthur Schopenhauer",
+					"description": "In 1865, Nietzsche thoroughly studied the works of Arthur Schopenhauer. He owed the awakening of his philosophical interest to reading Schopenhauer's 'The World as Will and Representation' and later admitted that Schopenhauer was one of the few thinkers whom he respected, dedicating the essay 'Schopenhauer as Educator' in the Untimely Meditations to him.",
+					"url": "https://en.m.wikipedia.org/wiki/Arthur_Schopenhauer",
+					"images": ["myimages/schopenhauer.jpg"],
+					"tags": ["Philosophy"]
+				},
+				{
+					"title": "Franz Overbeck",
+					"description": "Franz Camille Overbeck (16 November 1837 – 26 June 1905) was a German Protestant theologian. In Anglo-American discourse, he is perhaps best known in regard to his friendship with Friedrich Nietzsche; in German theological circles, Overbeck remains discussed for his own contributions.",
+					"url": "https://en.m.wikipedia.org/wiki/Franz_Overbeck",
+					"tags": []
+				},
+				{
+					"title": "Afrikan Spir",
+					"description": "Afrikan Aleksandrovich Spir (15 November 1837 – 26 March 1890) was a Russian Neo-Kantian philosopher of German-Greek descent who wrote primarily in German. His book 'Denken und Wirklichkeit' ('Thought and Reality') exerted a 'lasting impact' on the writings of Friedrich Nietzsche.",
+					"url": "https://en.m.wikipedia.org/wiki/Afrikan_Spir",
+					"tags": []
+				},
+				{
+					"title": "Jacob Burckhardt",
+					"description": "Carl Jacob Christoph Burckhardt (May 25, 1818 – August 8, 1897) was a Swiss historian of art and culture and an influential figure in the historiography of both fields. He is known as one of the major progenitors of cultural history.",
+					"url": "https://en.m.wikipedia.org/wiki/Jacob_Burckhardt",
+					"tags": []
+				},
+				{
+					"title": "Richard Wagner",
+					"description": "Wilhelm Richard Wagner (22 May 1813 – 13 February 1883) was a German composer, theatre director, polemicist, and conductor who is chiefly known for his operas (or, as some of his later works were later known, 'music dramas').",
+					"url": "https://en.m.wikipedia.org/wiki/Richard_Wagner",
+					"tags": ["Wagner"],
+					"images": ["myimages/wagner.jpg"]
+				},
+				{
+					"title": "Paul Rée",
+					"description": "[Nietzsche] also began a friendship with Paul Rée, who in 1876 influenced him into dismissing the pessimism in his early writings.",
+					"url": "https://en.m.wikipedia.org/wiki/Paul_Rée",
+					"tags": []
 				}
 			]
 		},
 		{
 			"caption": "Quotes",
+			"backgroundcolor": "#F8F9F9",
 			"ads": [
 				{
-					"title":"Becoming a devotee to truth",
+					"title":"",
 					"description": "Hence the ways of men part: if you wish to strive for peace of soul and pleasure, then believe; if you wish to be a devotee of truth, then inquire.",
+					"tags": ["Religion"]
+				},
+				{
+					"title":"",
+					"description": "Whoever fights monsters should see to it that in the process he does not become a monster. And if you gaze long enough into an abyss, the abyss will gaze back into you.",
+					"tags": []
+				},
+				{
+					"title":"",
+					"description": "All truly great thoughts are conceived by walking.",
+					"tags": []
+				},
+				{
+					"title":"",
+					"description": "There is always some madness in love. But there is also always some reason in madness.",
+					"tags": []
+				},
+				{
+					"title":"",
+					"description": "Without music, life would be a mistake.",
+					"tags": ["Music"]
+				},
+				{
+					"title":"",
+					"description": "To live is to suffer, to survive is to find some meaning in the suffering.",
+					"tags": []
+				},
+				{
+					"title":"",
+					"description": "God is dead. God remains dead. And we have killed him. Yet his shadow still looms. How shall we comfort ourselves, the murderers of all murderers? What was holiest and mightiest of all that the world has yet owned has bled to death under our knives; who will wipe this blood off us? What water is there for us to clean ourselves?",
 					"tags": ["Religion"]
 				}
 			]
