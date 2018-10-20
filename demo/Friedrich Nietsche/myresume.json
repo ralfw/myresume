@@ -6,7 +6,7 @@
 		"image": "myimages/portrait1.jpg",
 		"name": "Friedrich Nietzsche (1844-1900)",
 		"position": "Philosopher",
-		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history.",
+		"shortbio": "German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar whose work has exerted a profound influence on Western philosophy and modern intellectual history. (Text and images taken from Wikipedia article linked to in social media section below.)",
 		"location": "Sils Maria, Engadin, Switzerland",
 		"socialmedia": [
 			{
@@ -37,15 +37,40 @@
 			{
 				"from": "1844-10-15",
 				"until": "1868-12-31",
-				"jobtitle": "Youth",
-				"description": "",
+				"jobtitle": "son of a pastor",
+				"description": "Early life",
 				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Youth_(1844–1868)",
 				"tags": [
 				],
 				"achievements": [
 					{
+						"title": "Military service",
+						"description": "In 1867, Nietzsche signed up for one year of voluntary service with the Prussian artillery division in Naumburg. He was regarded as one of the finest riders among his fellow recruits, and his officers predicted that he would soon reach the rank of captain. However, in March 1868, while jumping into the saddle of his horse, Nietzsche struck his chest against the pommel and tore two muscles in his left side, leaving him exhausted and unable to walk for months. Consequently, Nietzsche turned his attention to his studies again, completing them in 1868.",
+						"tags": [ "Military" ]
+					},
+					{
+						"title": "Philosophical studies",
+						"description": "In 1866, Nietzsche read Friedrich Albert Lange's 'History of Materialism'. Lange's descriptions of Kant's anti-materialistic philosophy, the rise of European Materialism, Europe's increased concern with science, Charles Darwin's theory of evolution, and the general rebellion against tradition and authority intrigued Nietzsche greatly. The cultural environment encouraged him to expand his horizons beyond philology and continue his study of philosophy.",
+						"tags": [ "Philosophy" ]
+					},
+					{
+						"title": "Philological studies",
+						"description": "Nietzsche subsequently concentrated on studying philology under Professor Friedrich Wilhelm Ritschl, whom he followed to the University of Leipzig in 1865.",
+						"tags": [ ]
+					},
+					{
+						"title": "Loss of faith",
+						"description": "In June 1865, at the age of 20, Nietzsche wrote to his sister Elisabeth, who was deeply religious, a letter regarding his loss of faith.",
+						"tags": [ "Religion" ]
+					},
+					{
+						"title": "Theological studies",
+						"description": "After graduation in September 1864, Nietzsche commenced studies in theology and classical philology at the University of Bonn with hope of becoming a minister.",
+						"tags": [ "Religion" ]
+					},
+					{
 						"title": "Germania",
-						"description": "Led a music and literature club during summers in Naumburg.",
+						"description": "While in school Nietzsche led a music and literature club during summers in Naumburg.",
 						"tags": [ "Poetry", "Music"	],
 						"url": "https://de.wikipedia.org/wiki/Landesschule_Pforta",
 						"images": [	"myimages/youth1861.jpg" ]
@@ -60,9 +85,72 @@
 				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Professor_at_Basel_(1869–1878)",
 				"tags": [
 				]
+			},
+			{
+				"from": "1879-01-01",
+				"until": "1888-12-31",
+				"jobtitle": "Independent philosopher",
+				"description": "Sils Maria, Genoa, Nice, Turin",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Independent_philosopher_(1879–1888)",
+				"tags": [
+				]
+			},
+			{
+				"from": "1889-01-01",
+				"until": "1900-08-25",
+				"jobtitle": "Psychological illness and death",
+				"description": "Turin, Weimar, Röcken",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Psychological_illness_and_death_(1889–1900)",
+				"tags": [
+				]
 			}
 		]
 	},
+
+	"classifiedads": [
+		{
+			"caption": "Was influenced by",
+			"backgroundcolor": "WhiteSmoke",
+			"ads": [
+				{
+					"title": "Arthur Schopenhauer",
+					"description": "In 1865, Nietzsche thoroughly studied the works of Arthur Schopenhauer. He owed the awakening of his philosophical interest to reading Schopenhauer's 'The World as Will and Representation' and later admitted that Schopenhauer was one of the few thinkers whom he respected, dedicating the essay 'Schopenhauer as Educator' in the Untimely Meditations to him.",
+					"url": "https://en.m.wikipedia.org/wiki/Arthur_Schopenhauer",
+					"images": ["myimages/schopenhauer.jpg"],
+					"tags": ["Philosophy"]
+				},
+				{
+					"title": "Friedrich Hölderlin",
+					"description": "While at Pforta Nietzsche became acquainted with the work of the then almost-unknown poet Friedrich Hölderlin, calling him 'my favorite poet' and composing an essay in which he said that the mad poet raised consciousness to 'the most sublime ideality.'",
+					"url": "https://en.m.wikipedia.org/wiki/Friedrich_Hölderlin",
+					"tags": ["Poetry"]
+				},
+				{
+					"title": "David Strauss",
+					"description": "Nietzsche had argued that historical research had discredited the central teachings of Christianity, but David Strauss's 'Life of Jesus' also seems to have had a profound effect on the young man.",
+					"url": "https://en.m.wikipedia.org/wiki/David_Strauss",
+					"tags": ["Religion", "History"]
+				},
+				{
+					"title": "Ludwig Feuerbach",
+					"description": "Ludwig Feuerbach's 'The Essence of Christianity' influenced young Nietzsche with its argument that people created God, and not the other way around.",
+					"url": "https://en.m.wikipedia.org/wiki/Ludwig_Feuerbach",
+					"tags": ["Religion", "History"]
+				}
+			]
+		},
+		{
+			"caption": "Quotes",
+			"ads": [
+				{
+					"title":"Becoming a devotee to truth",
+					"description": "Hence the ways of men part: if you wish to strive for peace of soul and pleasure, then believe; if you wish to be a devotee of truth, then inquire.",
+					"tags": ["Religion"]
+				}
+			]
+		}
+	],
+
 
 	"getintouch": {
 		"caption": "Are You Curious?",
