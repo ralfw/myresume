@@ -46,7 +46,7 @@
 					{
 						"title": "Military service",
 						"description": "In 1867, Nietzsche signed up for one year of voluntary service with the Prussian artillery division in Naumburg. He was regarded as one of the finest riders among his fellow recruits, and his officers predicted that he would soon reach the rank of captain. However, in March 1868, while jumping into the saddle of his horse, Nietzsche struck his chest against the pommel and tore two muscles in his left side, leaving him exhausted and unable to walk for months. Consequently, Nietzsche turned his attention to his studies again, completing them in 1868.",
-						"tags": [ "Military service" ]
+						"tags": [ "Military service", "Health" ]
 					},
 					{
 						"title": "Philosophical studies",
@@ -89,7 +89,7 @@
 					{
 						"title": "Decline in health",
 						"description": "In 1879, after a significant decline in health, Nietzsche had to resign his position at Basel. Since his childhood, various disruptive illnesses had plagued him, including moments of shortsightedness that left him nearly blind, migraine headaches, and violent indigestion.",
-						"tags": [ ]
+						"tags": [ "Health" ]
 					},
 					{
 						"title": "Human, All to Human",
@@ -149,7 +149,7 @@
 					{
 						"title": "The autobiography",
 						"description": "His health seemed to improve and he spent the summer in high spirits. In the fall of 1888, his writings and letters began to reveal a higher estimation of his own status and 'fate'. [...] On his 44th birthday, after completing 'Twilight of the Idols' and 'The Antichrist', he decided to write the autobiography 'Ecce Homo'. [Which in its preface] suggests Nietzsche was well aware of the interpretive difficulties his work would generate[.]",
-						"tags": [ "Publications" ]
+						"tags": [ "Publications", "Health" ]
 					},
 					{
 						"title": "On the Genealogy of Morality",
@@ -174,7 +174,7 @@
 					{
 						"title": "Productivity in illness",
 						"description": "Amidst renewed bouts of illness, living in near-isolation after a falling out with his mother and sister regarding Salomé, Nietzsche fled to Rapallo, where he wrote the first part of 'Thus Spoke Zarathustra' in only ten days. By 1882, Nietzsche was taking huge doses of opium, but he was still having trouble sleeping. In 1883, while staying in Nice, he was writing out his own prescriptions for the sedative chloral hydrate, signing them 'Dr. Nietzsche'.",
-						"tags": [ "Publications" ]
+						"tags": [ "Publications", "Health" ]
 					},
 					{
 						"title": "Nietzsche in love",
@@ -200,6 +200,29 @@
 				"description": "Turin, Weimar, Röcken",
 				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Psychological_illness_and_death_(1889–1900)",
 				"tags": [
+				],
+				"achievements": [
+					{
+						"title": "The Will to Power",
+						"description": "Elisabeth Förster-Nietzsche compiled 'The Will to Power' from Nietzsche's unpublished notebooks and published it posthumously. Because his sister arranged the book based on her own conflation of several of Nietzsche's early outlines and took great liberties with the material, the scholarly consensus has been that it does not reflect Nietzsche's intent.",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "Death",
+						"description": "After contracting pneumonia in mid-August 1900, he had another stroke during the night of 24–25 August and died at about noon on 25 August.",
+						"tags": [ "Health" ]
+					},
+					{
+						"title": "Deteriorating health",
+						"description": "In 1898 and 1899, Nietzsche suffered at least two strokes. This partially paralyzed him, leaving him unable to speak or walk. He likely suffered from clinical hemiparesis/hemiplegia on the left side of his body by 1899.",
+						"tags": [ "Health" ]
+					},
+					{
+						"title": "Mental breakdown",
+						"description": "On 3 January 1889, Nietzsche suffered a mental breakdown. Two policemen approached him after he caused a public disturbance in the streets of Turin. What happened remains unknown, but an often-repeated tale from shortly after his death states that Nietzsche witnessed the flogging of a horse at the other end of the Piazza Carlo Alberto, ran to the horse, threw his arms up around its neck to protect it, and then collapsed to the ground.",
+						"tags": [ "Health" ],
+						"images": ["myimages/portrait2.jpg"]
+					}
 				]
 			}
 		]
