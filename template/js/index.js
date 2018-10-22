@@ -1,4 +1,4 @@
- function readTextFile(file, callback) {
+function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", file, true);
@@ -10,8 +10,13 @@
     rawFile.send(null);
 }
 
+function parseParameter(parameterName){
+    let urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(parameterName); // https://stackoverflow.com/a/901144/5964489 
+}
+
 //to parse JSON
-readTextFile("./myresume.json", function(text){
+readTextFile(parseParameter("myresume"), function(text){
     var data = JSON.parse(text);
     var titleImage=data.titleimage;
     var profilePic=data.personaldata.image;
