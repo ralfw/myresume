@@ -147,6 +147,16 @@
 				],
 				"achievements": [
 					{
+						"title": "The autobiography",
+						"description": "His health seemed to improve and he spent the summer in high spirits. In the fall of 1888, his writings and letters began to reveal a higher estimation of his own status and 'fate'. [...] On his 44th birthday, after completing 'Twilight of the Idols' and 'The Antichrist', he decided to write the autobiography 'Ecce Homo'. [Which in its preface] suggests Nietzsche was well aware of the interpretive difficulties his work would generate[.]",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "On the Genealogy of Morality",
+						"description": "In 1887, Nietzsche wrote the polemic 'On the Genealogy of Morality'. During the same year, he encountered the work of Fyodor Dostoyevsky, to whom he felt an immediate kinship. [...] Although Nietzsche had previously announced at the end of 'On the Genealogy of Morality' a new work with the title 'The Will to Power: Attempt at a Revaluation of All Values', he eventually seems to have abandoned this idea and instead used some of the draft passages to compose 'Twilight of the Idols' and 'The Antichrist' in 1888.",
+						"tags": [ "Publications" ]
+					},
+					{
 						"title": "Self-publishing",
 						"description": "In 1886, Nietzsche broke with his publisher Ernst Schmeitzner[...] He then printed 'Beyond Good and Evil' at his own expense. He also acquired the publication rights for his earlier works and over the next year issued second editions of 'The Birth of Tragedy', 'Human, All Too Human', 'Daybreak', and 'The Gay Science' with new prefaces placing the body of his work in a more coherent perspective. Thereafter, he saw his work as completed for a time and hoped that soon a readership would develop. In fact, interest in Nietzsche's thought did increase at this time, if rather slowly and hardly perceptibly to him.",
 						"tags": [ "Publications" ]
@@ -262,6 +272,13 @@
 					"url": "https://en.m.wikipedia.org/wiki/Lou_Andreas-Salomé",
 					"tags": [],
 					"images": ["myimages/Salome1914.jpg"]
+				},
+				{
+					"title": "Fyodor Dostoevsky",
+					"description": "Fyodor Mikhailovich Dostoevsky (11 November 1821 – 9 February 1881), sometimes transliterated Dostoyevsky, was a Russian novelist, short story writer, essayist, journalist and philosopher. Dostoevsky's literary works explore human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes.",
+					"url": "https://en.m.wikipedia.org/wiki/Fyodor_Dostoevsky",
+					"tags": [],
+					"images": []
 				}
 			]
 		},
