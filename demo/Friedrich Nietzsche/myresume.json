@@ -35,105 +35,37 @@
 
 		"workhistory": [
 			{
-				"from": "1844-10-15",
-				"until": "1868-12-31",
-				"jobtitle": "son of a pastor",
-				"description": "Early life",
-				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Youth_(1844–1868)",
+				"from": "1889-01-01",
+				"until": "1900-08-25",
+				"jobtitle": "Psychological illness and death",
+				"description": "Turin, Weimar, Röcken",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Psychological_illness_and_death_(1889–1900)",
 				"tags": [
 				],
 				"achievements": [
 					{
-						"title": "Military service",
-						"description": "In 1867, Nietzsche signed up for one year of voluntary service with the Prussian artillery division in Naumburg. He was regarded as one of the finest riders among his fellow recruits, and his officers predicted that he would soon reach the rank of captain. However, in March 1868, while jumping into the saddle of his horse, Nietzsche struck his chest against the pommel and tore two muscles in his left side, leaving him exhausted and unable to walk for months. Consequently, Nietzsche turned his attention to his studies again, completing them in 1868.",
-						"tags": [ "Military service", "Health" ]
+						"title": "Mental breakdown",
+						"description": "On 3 January 1889, Nietzsche suffered a mental breakdown. Two policemen approached him after he caused a public disturbance in the streets of Turin. What happened remains unknown, but an often-repeated tale from shortly after his death states that Nietzsche witnessed the flogging of a horse at the other end of the Piazza Carlo Alberto, ran to the horse, threw his arms up around its neck to protect it, and then collapsed to the ground.",
+						"tags": [ "Health" ],
+						"images": ["myimages/portrait2.jpg"]
 					},
 					{
-						"title": "Philosophical studies",
-						"description": "In 1866, Nietzsche read Friedrich Albert Lange's 'History of Materialism'. Lange's descriptions of Kant's anti-materialistic philosophy, the rise of European Materialism, Europe's increased concern with science, Charles Darwin's theory of evolution, and the general rebellion against tradition and authority intrigued Nietzsche greatly. The cultural environment encouraged him to expand his horizons beyond philology and continue his study of philosophy.",
-						"tags": [ "Philosophy" ]
-					},
-					{
-						"title": "Philological studies",
-						"description": "Nietzsche subsequently concentrated on studying philology under Professor Friedrich Wilhelm Ritschl, whom he followed to the University of Leipzig in 1865.",
-						"tags": [ ]
-					},
-					{
-						"title": "Loss of faith",
-						"description": "In June 1865, at the age of 20, Nietzsche wrote to his sister Elisabeth, who was deeply religious, a letter regarding his loss of faith.",
-						"tags": [ "Religion" ]
-					},
-					{
-						"title": "Theological studies",
-						"description": "After graduation in September 1864, Nietzsche commenced studies in theology and classical philology at the University of Bonn with hope of becoming a minister.",
-						"tags": [ "Religion" ]
-					},
-					{
-						"title": "Germania",
-						"description": "While in school Nietzsche led a music and literature club during summers in Naumburg.",
-						"tags": [ "Poetry", "Music"	],
-						"url": "https://de.wikipedia.org/wiki/Landesschule_Pforta",
-						"images": [	"myimages/youth1861.jpg" ]
-					}
-				]
-			},
-			{
-				"from": "1869-01-01",
-				"until": "1878-12-31",
-				"jobtitle": "Professor",
-				"description": "University of Basel",
-				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Professor_at_Basel_(1869–1878)",
-				"tags": [
-				],
-				"achievements": [
-					{
-						"title": "Decline in health",
-						"description": "In 1879, after a significant decline in health, Nietzsche had to resign his position at Basel. Since his childhood, various disruptive illnesses had plagued him, including moments of shortsightedness that left him nearly blind, migraine headaches, and violent indigestion.",
-						"tags": [ "Health" ]
-					},
-					{
-						"title": "Human, All to Human",
-						"description": "With the publication in 1878 of 'Human, All Too Human' (a book of aphorisms ranging from metaphysics to morality to religion to gender studies), a new style of Nietzsche's work became clear, highly influenced by Afrikan Spir's 'Thought and Reality' and reacting against the pessimistic philosophy of Wagner and Schopenhauer.",
-						"tags": [ "Philosophy", "Publications" ]
-					},
-					{
-						"title": "Dissatisfaction with Wagner",
-						"description": "[Nietzsche] was deeply disappointed by the Bayreuth Festival of 1876, where the banality of the shows and baseness of the public repelled him. He was also alienated by Wagner's championing of 'German culture', which Nietzsche felt a contradiction in terms as well as by Wagner's celebration of his fame among the German public. All this contributed to his subsequent decision to distance himself from Wagner.",
-						"tags": [ "Wagner" ]
-					},
-					{
-						"title": "Cultural critique",
-						"description": "Between 1873 and 1876, [Nietzsche] published four separate long essays: 'David Strauss: the Confessor and the Writer', 'On the Use and Abuse of History for Life', 'Schopenhauer as Educator' and 'Richard Wagner in Bayreuth'. These four later appeared in a collected edition under the title 'Untimely Meditations'. The essays shared the orientation of a cultural critique, challenging the developing German culture along lines suggested by Schopenhauer and Wagner.",
-						"tags": [ ],
-						"images": [	"myimages/nietzsche1872.jpg" ]
-					},
-					{
-						"title": "First book",
-						"description": "In 1872, Nietzsche published his first book, The Birth of Tragedy. However, his colleagues within his field, including Ritschl, expressed little enthusiasm for the work in which Nietzsche eschewed the classical philologic method in favor of a more speculative approach.",
-						"tags": [ "History", "Music", "Publications" ],
-						"images": ["myimages/birthoftragedy.jpg"],
-						"url": "https://en.m.wikipedia.org/wiki/The_Birth_of_Tragedy"
-					},
-					{
-						"title": "The Wagners",
-						"description": "Nietzsche had already met Richard Wagner in Leipzig in 1868 and later Wagner's wife, Cosima. Nietzsche admired both greatly and during his time at Basel frequently visited Wagner's house in Tribschen in Lucerne. The Wagners brought Nietzsche into their most intimate circle.",
-						"tags": [ "Wagner" ],
+						"title": "Deteriorating health",
+						"description": "In 1898 and 1899, Nietzsche suffered at least two strokes. This partially paralyzed him, leaving him unable to speak or walk. He likely suffered from clinical hemiparesis/hemiplegia on the left side of his body by 1899.",
+						"tags": [ "Health" ],
 						"images": []
-					},					
-					{
-						"title": "Franco-Prussian war",
-						"description": "Nietzsche served in the Prussian forces during the Franco-Prussian War (1870–1871) as a medical orderly. In his short time in the military, he experienced much and witnessed the traumatic effects of battle.",
-						"tags": [ "Military service" ]
 					},
 					{
-						"title": "Stateless",
-						"description": "Before moving to Basel, Nietzsche renounced his Prussian citizenship: for the rest of his life he remained officially stateless.",
-						"tags": [ ]
+						"title": "Death",
+						"description": "After contracting pneumonia in mid-August 1900, he had another stroke during the night of 24–25 August and died at about noon on 25 August.",
+						"tags": [ "Health" ],
+						"images": []
 					},
 					{
-						"title": "Professor of classical philology",
-						"description": "Nietzsche received a remarkable offer in 1869 to become professor of classical philology at the University of Basel in Switzerland. He was only 24 years old and had neither completed his doctorate nor received a teaching certificate ('habilitation'). He was [also] awarded an honorary doctorate by the University of Leipzig.",
-						"tags": [ "Teaching" ]
+						"title": "The Will to Power",
+						"description": "Elisabeth Förster-Nietzsche compiled 'The Will to Power' from Nietzsche's unpublished notebooks and published it posthumously. Because his sister arranged the book based on her own conflation of several of Nietzsche's early outlines and took great liberties with the material, the scholarly consensus has been that it does not reflect Nietzsche's intent.",
+						"tags": [ "Publications" ],
+						"images": []
 					}
 				]
 			},
@@ -147,38 +79,8 @@
 				],
 				"achievements": [
 					{
-						"title": "The autobiography",
-						"description": "His health seemed to improve and he spent the summer in high spirits. In the fall of 1888, his writings and letters began to reveal a higher estimation of his own status and 'fate'. [...] On his 44th birthday, after completing 'Twilight of the Idols' and 'The Antichrist', he decided to write the autobiography 'Ecce Homo'. [Which in its preface] suggests Nietzsche was well aware of the interpretive difficulties his work would generate[.]",
-						"tags": [ "Publications", "Health" ]
-					},
-					{
-						"title": "On the Genealogy of Morality",
-						"description": "In 1887, Nietzsche wrote the polemic 'On the Genealogy of Morality'. During the same year, he encountered the work of Fyodor Dostoyevsky, to whom he felt an immediate kinship. [...] Although Nietzsche had previously announced at the end of 'On the Genealogy of Morality' a new work with the title 'The Will to Power: Attempt at a Revaluation of All Values', he eventually seems to have abandoned this idea and instead used some of the draft passages to compose 'Twilight of the Idols' and 'The Antichrist' in 1888.",
-						"tags": [ "Publications" ]
-					},
-					{
-						"title": "Self-publishing",
-						"description": "In 1886, Nietzsche broke with his publisher Ernst Schmeitzner[...] He then printed 'Beyond Good and Evil' at his own expense. He also acquired the publication rights for his earlier works and over the next year issued second editions of 'The Birth of Tragedy', 'Human, All Too Human', 'Daybreak', and 'The Gay Science' with new prefaces placing the body of his work in a more coherent perspective. Thereafter, he saw his work as completed for a time and hoped that soon a readership would develop. In fact, interest in Nietzsche's thought did increase at this time, if rather slowly and hardly perceptibly to him.",
-						"tags": [ "Publications" ]
-					},
-					{
-						"title": "Lack of success in teaching",
-						"description": "In 1883, [Nietzsche] tried and failed to obtain a lecturing post at the University of Leipzig. It was made clear to him that, in view of his attitude towards Christianity and his concept of God, he had become effectively unemployable by any German university. The subsequent 'feelings of revenge and resentment' embittered him[.]",
-						"tags": [ "Teaching" ]
-					},
-					{
-						"title": "Lack of success in publication",
-						"description": "[W]ith the new style of Zarathustra, his work became even more alienating, and the market received it only to the degree required by politeness. Nietzsche recognized this and maintained his solitude, though he often complained about it. His books remained largely unsold. In 1885, he printed only 40 copies of the fourth part of Zarathustra and distributed only a fraction of these among close friends[.]",
-						"tags": [ "Publications" ]
-					},
-					{
-						"title": "Productivity in illness",
-						"description": "Amidst renewed bouts of illness, living in near-isolation after a falling out with his mother and sister regarding Salomé, Nietzsche fled to Rapallo, where he wrote the first part of 'Thus Spoke Zarathustra' in only ten days. By 1882, Nietzsche was taking huge doses of opium, but he was still having trouble sleeping. In 1883, while staying in Nice, he was writing out his own prescriptions for the sedative chloral hydrate, signing them 'Dr. Nietzsche'.",
-						"tags": [ "Publications", "Health" ]
-					},
-					{
-						"title": "Nietzsche in love",
-						"description": "[In 1882 Nietzsche] also met Lou Andreas-Salomé, through [...] and Paul Rée. The two met Nietzsche in Rome in April 1882, and Nietzsche is believed to have instantly fallen in love with Salome, as Rée had done. Nietzsche asked Rée to propose marriage to Salome, which she rejected. She had been interested in Nietzsche as a friend, but not as a husband. Nietzsche nonetheless was content to join together with Rée and Salome touring through Switzerland and Italy together, planning [a] commune. On 13 May, in Lucerne, when Nietzsche was alone with Salome, he earnestly proposed marriage to her again, which she rejected.",
+						"title": "Frequent travels",
+						"description": "Living off his pension from Basel and aid from friends, Nietzsche travelled frequently to find climates more conducive to his health and lived until 1889 as an independent author in different cities. He spent many summers in Sils Maria near St. Moritz in Switzerland. He spent his winters in the Italian cities of Genoa, Rapallo, and Turin and the French city of Nice.",
 						"tags": [ ]
 					},
 					{
@@ -187,41 +89,159 @@
 						"tags": [ "Publications" ]
 					},
 					{
-						"title": "Frequent travels",
-						"description": "Living off his pension from Basel and aid from friends, Nietzsche travelled frequently to find climates more conducive to his health and lived until 1889 as an independent author in different cities. He spent many summers in Sils Maria near St. Moritz in Switzerland. He spent his winters in the Italian cities of Genoa, Rapallo, and Turin and the French city of Nice.",
+						"title": "Nietzsche in love",
+						"description": "[In 1882 Nietzsche] also met Lou Andreas-Salomé, through [...] and Paul Rée. The two met Nietzsche in Rome in April 1882, and Nietzsche is believed to have instantly fallen in love with Salome, as Rée had done. Nietzsche asked Rée to propose marriage to Salome, which she rejected. She had been interested in Nietzsche as a friend, but not as a husband. Nietzsche nonetheless was content to join together with Rée and Salome touring through Switzerland and Italy together, planning [a] commune. On 13 May, in Lucerne, when Nietzsche was alone with Salome, he earnestly proposed marriage to her again, which she rejected.",
 						"tags": [ ]
+					},
+					{
+						"title": "Productivity in illness",
+						"description": "Amidst renewed bouts of illness, living in near-isolation after a falling out with his mother and sister regarding Salomé, Nietzsche fled to Rapallo, where he wrote the first part of 'Thus Spoke Zarathustra' in only ten days. By 1882, Nietzsche was taking huge doses of opium, but he was still having trouble sleeping. In 1883, while staying in Nice, he was writing out his own prescriptions for the sedative chloral hydrate, signing them 'Dr. Nietzsche'.",
+						"tags": [ "Publications", "Health" ]
+					},
+					{
+						"title": "Lack of success in publication",
+						"description": "[W]ith the new style of Zarathustra, his work became even more alienating, and the market received it only to the degree required by politeness. Nietzsche recognized this and maintained his solitude, though he often complained about it. His books remained largely unsold. In 1885, he printed only 40 copies of the fourth part of Zarathustra and distributed only a fraction of these among close friends[.]",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "Lack of success in teaching",
+						"description": "In 1883, [Nietzsche] tried and failed to obtain a lecturing post at the University of Leipzig. It was made clear to him that, in view of his attitude towards Christianity and his concept of God, he had become effectively unemployable by any German university. The subsequent 'feelings of revenge and resentment' embittered him[.]",
+						"tags": [ "Teaching" ]
+					},
+					{
+						"title": "Self-publishing",
+						"description": "In 1886, Nietzsche broke with his publisher Ernst Schmeitzner[...] He then printed 'Beyond Good and Evil' at his own expense. He also acquired the publication rights for his earlier works and over the next year issued second editions of 'The Birth of Tragedy', 'Human, All Too Human', 'Daybreak', and 'The Gay Science' with new prefaces placing the body of his work in a more coherent perspective. Thereafter, he saw his work as completed for a time and hoped that soon a readership would develop. In fact, interest in Nietzsche's thought did increase at this time, if rather slowly and hardly perceptibly to him.",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "On the Genealogy of Morality",
+						"description": "In 1887, Nietzsche wrote the polemic 'On the Genealogy of Morality'. During the same year, he encountered the work of Fyodor Dostoyevsky, to whom he felt an immediate kinship. [...] Although Nietzsche had previously announced at the end of 'On the Genealogy of Morality' a new work with the title 'The Will to Power: Attempt at a Revaluation of All Values', he eventually seems to have abandoned this idea and instead used some of the draft passages to compose 'Twilight of the Idols' and 'The Antichrist' in 1888.",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "The autobiography",
+						"description": "His health seemed to improve and he spent the summer in high spirits. In the fall of 1888, his writings and letters began to reveal a higher estimation of his own status and 'fate'. [...] On his 44th birthday, after completing 'Twilight of the Idols' and 'The Antichrist', he decided to write the autobiography 'Ecce Homo'. [Which in its preface] suggests Nietzsche was well aware of the interpretive difficulties his work would generate[.]",
+						"tags": [ "Publications", "Health" ]
 					}
 				]
 			},
 			{
-				"from": "1889-01-01",
-				"until": "1900-08-25",
-				"jobtitle": "Psychological illness and death",
-				"description": "Turin, Weimar, Röcken",
-				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Psychological_illness_and_death_(1889–1900)",
+				"from": "1869-01-01",
+				"until": "1878-12-31",
+				"jobtitle": "Professor",
+				"description": "University of Basel",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Professor_at_Basel_(1869–1878)",
 				"tags": [
 				],
 				"achievements": [
 					{
-						"title": "The Will to Power",
-						"description": "Elisabeth Förster-Nietzsche compiled 'The Will to Power' from Nietzsche's unpublished notebooks and published it posthumously. Because his sister arranged the book based on her own conflation of several of Nietzsche's early outlines and took great liberties with the material, the scholarly consensus has been that it does not reflect Nietzsche's intent.",
-						"tags": [ "Publications" ]
+						"title": "Professor of classical philology",
+						"description": "Nietzsche received a remarkable offer in 1869 to become professor of classical philology at the University of Basel in Switzerland. He was only 24 years old and had neither completed his doctorate nor received a teaching certificate ('habilitation'). He was [also] awarded an honorary doctorate by the University of Leipzig.",
+						"tags": [ "Teaching" ],
+						"images": []
 					},
 					{
-						"title": "Death",
-						"description": "After contracting pneumonia in mid-August 1900, he had another stroke during the night of 24–25 August and died at about noon on 25 August.",
-						"tags": [ "Health" ]
+						"title": "Stateless",
+						"description": "Before moving to Basel, Nietzsche renounced his Prussian citizenship: for the rest of his life he remained officially stateless.",
+						"tags": [ ],
+						"images": []
 					},
 					{
-						"title": "Deteriorating health",
-						"description": "In 1898 and 1899, Nietzsche suffered at least two strokes. This partially paralyzed him, leaving him unable to speak or walk. He likely suffered from clinical hemiparesis/hemiplegia on the left side of his body by 1899.",
-						"tags": [ "Health" ]
+						"title": "Franco-Prussian war",
+						"description": "Nietzsche served in the Prussian forces during the Franco-Prussian War (1870–1871) as a medical orderly. In his short time in the military, he experienced much and witnessed the traumatic effects of battle.",
+						"tags": [ "Military service" ],
+						"images": []
 					},
 					{
-						"title": "Mental breakdown",
-						"description": "On 3 January 1889, Nietzsche suffered a mental breakdown. Two policemen approached him after he caused a public disturbance in the streets of Turin. What happened remains unknown, but an often-repeated tale from shortly after his death states that Nietzsche witnessed the flogging of a horse at the other end of the Piazza Carlo Alberto, ran to the horse, threw his arms up around its neck to protect it, and then collapsed to the ground.",
+						"title": "The Wagners",
+						"description": "Nietzsche had already met Richard Wagner in Leipzig in 1868 and later Wagner's wife, Cosima. Nietzsche admired both greatly and during his time at Basel frequently visited Wagner's house in Tribschen in Lucerne. The Wagners brought Nietzsche into their most intimate circle.",
+						"tags": [ "Wagner" ],
+						"images": []
+					},	
+					{
+						"title": "First book",
+						"description": "In 1872, Nietzsche published his first book, The Birth of Tragedy. However, his colleagues within his field, including Ritschl, expressed little enthusiasm for the work in which Nietzsche eschewed the classical philologic method in favor of a more speculative approach.",
+						"tags": [ "History", "Music", "Publications" ],
+						"images": ["myimages/birthoftragedy.jpg"],
+						"url": "https://en.m.wikipedia.org/wiki/The_Birth_of_Tragedy"
+					},
+					{
+						"title": "Cultural critique",
+						"description": "Between 1873 and 1876, [Nietzsche] published four separate long essays: 'David Strauss: the Confessor and the Writer', 'On the Use and Abuse of History for Life', 'Schopenhauer as Educator' and 'Richard Wagner in Bayreuth'. These four later appeared in a collected edition under the title 'Untimely Meditations'. The essays shared the orientation of a cultural critique, challenging the developing German culture along lines suggested by Schopenhauer and Wagner.",
+						"tags": [ ],
+						"images": [	"myimages/nietzsche1872.jpg" ]
+					},
+					{
+						"title": "Dissatisfaction with Wagner",
+						"description": "[Nietzsche] was deeply disappointed by the Bayreuth Festival of 1876, where the banality of the shows and baseness of the public repelled him. He was also alienated by Wagner's championing of 'German culture', which Nietzsche felt a contradiction in terms as well as by Wagner's celebration of his fame among the German public. All this contributed to his subsequent decision to distance himself from Wagner.",
+						"tags": [ "Wagner" ],
+						"images": []
+					},
+					{
+						"title": "Human, All to Human",
+						"description": "With the publication in 1878 of 'Human, All Too Human' (a book of aphorisms ranging from metaphysics to morality to religion to gender studies), a new style of Nietzsche's work became clear, highly influenced by Afrikan Spir's 'Thought and Reality' and reacting against the pessimistic philosophy of Wagner and Schopenhauer.",
+						"tags": [ "Philosophy", "Publications" ],
+						"images": []
+					},
+					{
+						"title": "Decline in health",
+						"description": "In 1879, after a significant decline in health, Nietzsche had to resign his position at Basel. Since his childhood, various disruptive illnesses had plagued him, including moments of shortsightedness that left him nearly blind, migraine headaches, and violent indigestion.",
 						"tags": [ "Health" ],
-						"images": ["myimages/portrait2.jpg"]
+						"images": []
+					}
+				]
+			},
+			{
+				"from": "1844-10-15",
+				"until": "1868-12-31",
+				"jobtitle": "son of a pastor",
+				"description": "Early life",
+				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Youth_(1844–1868)",
+				"tags": [
+				],
+				"achievements": [
+					{
+						"title": "Birth",
+						"description": "Born on 15 October 1844, Nietzsche grew up in the small town of Röcken, near Leipzig, in the Prussian Province of Saxony. He was named after King Friedrich Wilhelm IV of Prussia, who turned 49 on the day of Nietzsche's birth (Nietzsche later dropped his middle name Wilhelm).",
+						"tags": [ ],
+						"images": [ ]
+					},
+					{
+						"title": "Germania",
+						"description": "While in school Nietzsche led a music and literature club during summers in Naumburg.",
+						"tags": [ "Poetry", "Music"	],
+						"url": "https://de.wikipedia.org/wiki/Landesschule_Pforta",
+						"images": [	"myimages/youth1861.jpg" ]
+					},
+					{
+						"title": "Theological studies",
+						"description": "After graduation in September 1864, Nietzsche commenced studies in theology and classical philology at the University of Bonn with hope of becoming a minister.",
+						"tags": [ "Religion" ],
+						"images": []
+					},
+					{
+						"title": "Loss of faith",
+						"description": "In June 1865, at the age of 20, Nietzsche wrote to his sister Elisabeth, who was deeply religious, a letter regarding his loss of faith.",
+						"tags": [ "Religion" ],
+						"images": []
+					},
+					{
+						"title": "Philological studies",
+						"description": "Nietzsche subsequently concentrated on studying philology under Professor Friedrich Wilhelm Ritschl, whom he followed to the University of Leipzig in 1865.",
+						"tags": [ ],
+						"images": []
+					},
+					{
+						"title": "Philosophical studies",
+						"description": "In 1866, Nietzsche read Friedrich Albert Lange's 'History of Materialism'. Lange's descriptions of Kant's anti-materialistic philosophy, the rise of European Materialism, Europe's increased concern with science, Charles Darwin's theory of evolution, and the general rebellion against tradition and authority intrigued Nietzsche greatly. The cultural environment encouraged him to expand his horizons beyond philology and continue his study of philosophy.",
+						"tags": [ "Philosophy" ],
+						"images": []
+					},
+					{
+						"title": "Military service",
+						"description": "In 1867, Nietzsche signed up for one year of voluntary service with the Prussian artillery division in Naumburg. He was regarded as one of the finest riders among his fellow recruits, and his officers predicted that he would soon reach the rank of captain. However, in March 1868, while jumping into the saddle of his horse, Nietzsche struck his chest against the pommel and tore two muscles in his left side, leaving him exhausted and unable to walk for months. Consequently, Nietzsche turned his attention to his studies again, completing them in 1868.",
+						"tags": [ "Military service", "Health" ],
+						"images": []
 					}
 				]
 			}
@@ -235,24 +255,28 @@
 			"ads": [
 				{
 					"title": "Friedrich Hölderlin",
+					"progress": 10,
 					"description": "While at Pforta Nietzsche became acquainted with the work of the then almost-unknown poet Friedrich Hölderlin, calling him 'my favorite poet' and composing an essay in which he said that the mad poet raised consciousness to 'the most sublime ideality.'",
 					"url": "https://en.m.wikipedia.org/wiki/Friedrich_Hölderlin",
 					"tags": ["Poetry"]
 				},
 				{
 					"title": "David Strauss",
+					"progress": 25,
 					"description": "Nietzsche had argued that historical research had discredited the central teachings of Christianity, but David Strauss's 'Life of Jesus' also seems to have had a profound effect on the young man.",
 					"url": "https://en.m.wikipedia.org/wiki/David_Strauss",
 					"tags": ["Religion", "History"]
 				},
 				{
 					"title": "Ludwig Feuerbach",
+					"progress": 25,
 					"description": "Ludwig Feuerbach's 'The Essence of Christianity' influenced young Nietzsche with its argument that people created God, and not the other way around.",
 					"url": "https://en.m.wikipedia.org/wiki/Ludwig_Feuerbach",
 					"tags": ["Religion", "History"]
 				},
 				{
 					"title": "Arthur Schopenhauer",
+					"progress": 50,
 					"description": "In 1865, Nietzsche thoroughly studied the works of Arthur Schopenhauer. He owed the awakening of his philosophical interest to reading Schopenhauer's 'The World as Will and Representation' and later admitted that Schopenhauer was one of the few thinkers whom he respected, dedicating the essay 'Schopenhauer as Educator' in the Untimely Meditations to him.",
 					"url": "https://en.m.wikipedia.org/wiki/Arthur_Schopenhauer",
 					"images": ["myimages/schopenhauer.jpg"],
@@ -260,24 +284,28 @@
 				},
 				{
 					"title": "Franz Overbeck",
+					"progress": 33,
 					"description": "Franz Camille Overbeck (16 November 1837 – 26 June 1905) was a German Protestant theologian. In Anglo-American discourse, he is perhaps best known in regard to his friendship with Friedrich Nietzsche; in German theological circles, Overbeck remains discussed for his own contributions.",
 					"url": "https://en.m.wikipedia.org/wiki/Franz_Overbeck",
 					"tags": []
 				},
 				{
 					"title": "Afrikan Spir",
+					"progress": 25,
 					"description": "Afrikan Aleksandrovich Spir (15 November 1837 – 26 March 1890) was a Russian Neo-Kantian philosopher of German-Greek descent who wrote primarily in German. His book 'Denken und Wirklichkeit' ('Thought and Reality') exerted a 'lasting impact' on the writings of Friedrich Nietzsche.",
 					"url": "https://en.m.wikipedia.org/wiki/Afrikan_Spir",
 					"tags": []
 				},
 				{
 					"title": "Jacob Burckhardt",
+					"progress": 33,
 					"description": "Carl Jacob Christoph Burckhardt (May 25, 1818 – August 8, 1897) was a Swiss historian of art and culture and an influential figure in the historiography of both fields. He is known as one of the major progenitors of cultural history.",
 					"url": "https://en.m.wikipedia.org/wiki/Jacob_Burckhardt",
 					"tags": []
 				},
 				{
 					"title": "Richard Wagner",
+					"progress": 50,
 					"description": "Wilhelm Richard Wagner (22 May 1813 – 13 February 1883) was a German composer, theatre director, polemicist, and conductor who is chiefly known for his operas (or, as some of his later works were later known, 'music dramas').",
 					"url": "https://en.m.wikipedia.org/wiki/Richard_Wagner",
 					"tags": ["Wagner"],
@@ -285,12 +313,14 @@
 				},
 				{
 					"title": "Paul Rée",
+					"progress": 33,
 					"description": "[Nietzsche] also began a friendship with Paul Rée, who in 1876 influenced him into dismissing the pessimism in his early writings.",
 					"url": "https://en.m.wikipedia.org/wiki/Paul_Rée",
 					"tags": []
 				},
 				{
 					"title": "Lou Salomé",
+					"progress": 75,
 					"description": "Lou Andreas-Salomé (12 February 1861 – 5 February 1937) was a Russian-born psychoanalyst and author. Her diverse intellectual interests led to friendships with a broad array of distinguished western thinkers, including Friedrich Nietzsche, Sigmund Freud, Paul Rée, and Rainer Maria Rilke.",
 					"url": "https://en.m.wikipedia.org/wiki/Lou_Andreas-Salomé",
 					"tags": [],
@@ -298,6 +328,7 @@
 				},
 				{
 					"title": "Fyodor Dostoevsky",
+					"progress": 10,
 					"description": "Fyodor Mikhailovich Dostoevsky (11 November 1821 – 9 February 1881), sometimes transliterated Dostoyevsky, was a Russian novelist, short story writer, essayist, journalist and philosopher. Dostoevsky's literary works explore human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes.",
 					"url": "https://en.m.wikipedia.org/wiki/Fyodor_Dostoevsky",
 					"tags": [],
