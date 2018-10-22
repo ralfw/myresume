@@ -144,6 +144,43 @@
 				"description": "Sils Maria, Genoa, Nice, Turin",
 				"website": "https://en.m.wikipedia.org/wiki/Friedrich_Nietzsche#Independent_philosopher_(1879–1888)",
 				"tags": [
+				],
+				"achievements": [
+					{
+						"title": "Self-publishing",
+						"description": "In 1886, Nietzsche broke with his publisher Ernst Schmeitzner[...] He then printed 'Beyond Good and Evil' at his own expense. He also acquired the publication rights for his earlier works and over the next year issued second editions of 'The Birth of Tragedy', 'Human, All Too Human', 'Daybreak', and 'The Gay Science' with new prefaces placing the body of his work in a more coherent perspective. Thereafter, he saw his work as completed for a time and hoped that soon a readership would develop. In fact, interest in Nietzsche's thought did increase at this time, if rather slowly and hardly perceptibly to him.",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "Lack of success in teaching",
+						"description": "In 1883, [Nietzsche] tried and failed to obtain a lecturing post at the University of Leipzig. It was made clear to him that, in view of his attitude towards Christianity and his concept of God, he had become effectively unemployable by any German university. The subsequent 'feelings of revenge and resentment' embittered him[.]",
+						"tags": [ "Teaching" ]
+					},
+					{
+						"title": "Lack of success in publication",
+						"description": "[W]ith the new style of Zarathustra, his work became even more alienating, and the market received it only to the degree required by politeness. Nietzsche recognized this and maintained his solitude, though he often complained about it. His books remained largely unsold. In 1885, he printed only 40 copies of the fourth part of Zarathustra and distributed only a fraction of these among close friends[.]",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "Productivity in illness",
+						"description": "Amidst renewed bouts of illness, living in near-isolation after a falling out with his mother and sister regarding Salomé, Nietzsche fled to Rapallo, where he wrote the first part of 'Thus Spoke Zarathustra' in only ten days. By 1882, Nietzsche was taking huge doses of opium, but he was still having trouble sleeping. In 1883, while staying in Nice, he was writing out his own prescriptions for the sedative chloral hydrate, signing them 'Dr. Nietzsche'.",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "Nietzsche in love",
+						"description": "[In 1882 Nietzsche] also met Lou Andreas-Salomé, through [...] and Paul Rée. The two met Nietzsche in Rome in April 1882, and Nietzsche is believed to have instantly fallen in love with Salome, as Rée had done. Nietzsche asked Rée to propose marriage to Salome, which she rejected. She had been interested in Nietzsche as a friend, but not as a husband. Nietzsche nonetheless was content to join together with Rée and Salome touring through Switzerland and Italy together, planning [a] commune. On 13 May, in Lucerne, when Nietzsche was alone with Salome, he earnestly proposed marriage to her again, which she rejected.",
+						"tags": [ ]
+					},
+					{
+						"title": "High productivity",
+						"description": "Nietzsche stood at the beginning of his most productive period. Beginning with Human, All Too Human in 1878, Nietzsche published one book or major section of a book each year until 1888, his last year of writing; that year, he completed five.",
+						"tags": [ "Publications" ]
+					},
+					{
+						"title": "Frequent travels",
+						"description": "Living off his pension from Basel and aid from friends, Nietzsche travelled frequently to find climates more conducive to his health and lived until 1889 as an independent author in different cities. He spent many summers in Sils Maria near St. Moritz in Switzerland. He spent his winters in the Italian cities of Genoa, Rapallo, and Turin and the French city of Nice.",
+						"tags": [ ]
+					}
 				]
 			},
 			{
@@ -218,6 +255,13 @@
 					"description": "[Nietzsche] also began a friendship with Paul Rée, who in 1876 influenced him into dismissing the pessimism in his early writings.",
 					"url": "https://en.m.wikipedia.org/wiki/Paul_Rée",
 					"tags": []
+				},
+				{
+					"title": "Lou Salomé",
+					"description": "Lou Andreas-Salomé (12 February 1861 – 5 February 1937) was a Russian-born psychoanalyst and author. Her diverse intellectual interests led to friendships with a broad array of distinguished western thinkers, including Friedrich Nietzsche, Sigmund Freud, Paul Rée, and Rainer Maria Rilke.",
+					"url": "https://en.m.wikipedia.org/wiki/Lou_Andreas-Salomé",
+					"tags": [],
+					"images": ["myimages/Salome1914.jpg"]
 				}
 			]
 		},
