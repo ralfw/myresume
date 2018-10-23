@@ -12,11 +12,10 @@ function readTextFile(file, callback) {
 
 function parseParameter(parameterName, defaultParameter){
     let urlParams = new URLSearchParams(window.location.search);
-	
-	if(urlParams.get(parameterName) == null)
-	    return defaultParameter;
-	else
-	    return urlParams.get(parameterName); // https://stackoverflow.com/a/901144/5964489 
+    if(urlParams.get(parameterName) == null)
+        return defaultParameter;
+    else
+        return urlParams.get(parameterName); // https://stackoverflow.com/a/901144/5964489 
 }
 
 //to parse JSON
