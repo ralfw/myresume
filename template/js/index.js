@@ -10,13 +10,17 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-function parseParameter(parameterName){
+function parseParameter(parameterName, defaultParameter){
     let urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(parameterName); // https://stackoverflow.com/a/901144/5964489 
+	
+	if(urlParams.get(parameterName) == null)
+	    return defaultParameter;
+	else
+	    return urlParams.get(parameterName); // https://stackoverflow.com/a/901144/5964489 
 }
 
 //to parse JSON
-readTextFile(parseParameter("myresume"), function(text){
+readTextFile(parseParameter("myresume", "./myresume.json"), function(text){
     var data = JSON.parse(text);
     var titleImage=data.titleimage;
     var profilePic=data.personaldata.image;
