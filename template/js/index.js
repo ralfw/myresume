@@ -196,32 +196,34 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
     var imageBox="";
     //loop through achievents if present
     if(elem.achievements!==undefined){
-    var achievements= elem.achievements.map(data=>{
-        if(data.tags!==undefined){
-        var tags=data.tags.map(tag=>{
-            return `&nbsp;<span id="tagModal" class="resume-skill comma-seperated comma-blocks">`+tag+`</span>`
-        });
-         }
+        var achievements= elem.achievements.map(data=>{
+            tags = []
+            if(data.tags!==undefined){
+              tags=data.tags.map(tag=>{
+                return `&nbsp;<span id="tagModal" class="resume-skill comma-seperated comma-blocks">`+tag+`</span>`
+              });
+            }
+            
             //to get url widget
             var embedLink="";
             if(data.url!==undefined){
-              var embedLink=`<h4 class="adUrl" >
-              <a class="no-underline" target="_blank" href="`+data.url+`">
-               <img src="https://www.google.com/s2/favicons?domain=`+ data.url +`">
-              <span class="underline">`+data.url+`</span>
-              </a></h4>`
-          }
+                var embedLink=`<h4 class="adUrl" >
+                <a class="no-underline" target="_blank" href="`+data.url+`">
+                <img src="https://www.google.com/s2/favicons?domain=`+ data.url +`">
+                <span class="underline">`+data.url+`</span>
+                </a></h4>`
+            }
 
             if(data.images!==undefined){
-            imageBox=data.images.map(image=>{
-            return `
-                      <div  class="imageBox-image" style="background-image: url(`+image+`)">
-                      </div>`
+              imageBox=data.images.map(image=>{
+                  return `<div  class="imageBox-image" style="background-image: url(`+image+`)"></div>`
               }).join('');  
             }
-          
-             return` 
-              <div class="resume-body resume-details">
+
+            if (tags.length > 0)
+              tags = `<i class="fa fa-flash"></i>` + tags
+
+            return `<div class="resume-body resume-details">
               <div><p class="dot themeBackgroundDark"></p></div>
               <div>
               <h5 class="themeColorDark" >`+data.title+`</h5>
@@ -230,8 +232,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
               <p class="tagMargin">`+ data.description+`&nbsp;</p>
               </div>`
               +embedLink+
-              `<div class="resume-skills skills-list selectable" >
-              <i class="fa fa-flash"></i>`
+              `<div class="resume-skills skills-list selectable" >`
               +tags+
               `</div>`
               +
@@ -283,6 +284,10 @@ var trackRecord = `<li class='profile-resume normal right first-in-experience ha
             return `&nbsp;<span id="tagModal" class="resume-skill comma-seperated comma-blocks">`+tag+`</span>`
         });
          }
+
+         if (tags.length > 0)
+          tags = `<i class="fa fa-flash"></i>` + tags
+
        var trackRecord=  `<li class="">
           
           <div class="point-body point-details" >
@@ -298,11 +303,9 @@ var trackRecord = `<li class='profile-resume normal right first-in-experience ha
             <span class="underline">`+elem.website+`</span>
             </a></h4>
             </div>
-            <div class="point-skills skills-list selectable">
-             <i class="fa fa-flash"></i> 
-              `+tags+`
-            </div>
-          </div>
+            <div class="point-skills skills-list selectable">`
+              +tags+
+          `</div>
         </li> `
         
     }  
@@ -387,6 +390,10 @@ var classifiedAd = data.classifiedads.map(elem=>{
             return `&nbsp;<span id="tagModal" class="taglist">`+tag+`</span>`
         });
       }
+
+      if (tags.length > 0)
+        tags = `<i class="fa fa-flash"></i>` + tags
+
         if(ad.images!==undefined){
             imageBox=ad.images.map(image=>{
             return `
@@ -405,10 +412,9 @@ var classifiedAd = data.classifiedads.map(elem=>{
                <p>`+ad.description+`</p>
                </div>
                 `+urlfield+`
-               <div class="taglist1">
-                <i class="fa fa-flash"></i> 
-              `+tags+`<div class="imageBox" >
-              `+imageBox+`</div>
+               <div class="taglist1">`
+              +tags+`<div class="imageBox" >`
+              +imageBox+`</div>
                 </div>
               </div>
             </li>`
@@ -560,6 +566,10 @@ window.onclick = function(event) {
             return `&nbsp;<span id="tagModal" class="resume-skill comma-seperated comma-blocks">`+tag+`</span>`
         });
     }
+
+    if (tags.length > 0)
+      tags = `<i class="fa fa-flash"></i>` + tags
+
     var modalUrl="";
     if(tagElem.jobtitle===undefined){
        if(tagElem.url!==undefined){
@@ -571,6 +581,7 @@ window.onclick = function(event) {
           }else{
             modalUrl="";
           }
+
         return `<div class="modal-body">
               <div>
               <h5 class="themeColorDark" >`+tagElem.title+`</h5>
@@ -579,10 +590,9 @@ window.onclick = function(event) {
               <p class="tagMargin">`+ tagElem.description+`&nbsp;</p>
               </div>
                `+modalUrl+`
-              <div class="resume-skills skills-list selectable modalpad" >
-              <i class="fa fa-flash"></i> 
-              `+tags+`
-              </div>
+              <div class="resume-skills skills-list selectable modalpad" >`
+              +tags+
+              `</div>
               </div>`
     }else{
           if(tagElem.website!==undefined){
@@ -602,10 +612,9 @@ window.onclick = function(event) {
               <p class="tagMargin">`+ tagElem.description+`&nbsp;</p>
               </div>
                 `+modalUrl+`
-              <div class="resume-skills skills-list selectable modalpad" >
-              <i class="fa fa-flash"></i> 
-              `+tags+`
-              </div>
+              <div class="resume-skills skills-list selectable modalpad" >`
+              +tags+
+              `</div>
               </div>`
     }
   }).join('');
