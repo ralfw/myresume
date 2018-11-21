@@ -204,6 +204,14 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
          }
             //to get url widget
             var embedLink="";
+            if(data.url!==undefined){
+              var embedLink=`<h4 class="adUrl" >
+              <a class="no-underline" target="_blank" href="`+data.url+`">
+               <img src="https://www.google.com/s2/favicons?domain=`+ data.url +`">
+              <span class="underline">`+data.url+`</span>
+              </a></h4>`
+          }
+
             if(data.images!==undefined){
             imageBox=data.images.map(image=>{
             return `
@@ -220,13 +228,16 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
               </div>
               <div class="pen themeColorText">
               <p class="tagMargin">`+ data.description+`&nbsp;</p>
-              </div>
-              <div class="resume-skills skills-list selectable" >
-              <i class="fa fa-flash"></i> 
-              `+tags+`
-              </div><div class="imageBox" >
+              </div>`
+              +embedLink+
+              `<div class="resume-skills skills-list selectable" >
+              <i class="fa fa-flash"></i>`
+              +tags+
+              `</div>`
+              +
+              `<div class="imageBox" >
               `+imageBox+`</div>
-              </div>`+ embedLink     
+              </div>`     
     }).join('');
     }else{
       achievements="";
