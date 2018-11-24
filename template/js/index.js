@@ -120,7 +120,7 @@ if(data.personaldata.workhistory!==undefined){
     var timeline={};
     timeline.content=elem.description;
     timeline.start=elem.from;
-    if(elem.until==="now"){
+    if(elem.until==="today"){
       var d = new Date(),
         month = '' + (d.getMonth() + 1),
         day = '' + d.getDate(),
@@ -164,7 +164,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
   const [year, month, day] = elem.from.split("-");
    var fromDate= new Date(year,month-1,day); 
    const [year1, month1, day1] = elem.until.split("-");
-   if(elem.until==="now"){
+   if(elem.until==="today"){
    var toDate= new Date(); 
    }else{
    var toDate= new Date(year1,month1-1,day1);     
@@ -172,7 +172,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 
     var fromMonth= monthNames[fromDate.getMonth()]
     var toMonth= monthNames[toDate.getMonth()]
-   if(elem.until==="now"){
+   if(elem.until==="today"){
    toMonth= ""; 
    }
    //calculate year months
