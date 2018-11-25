@@ -9,7 +9,7 @@ Here's an example My Résumé for the 19th century philosopher Friedrich Nietzsc
 
 It's a quite long CV. But that's how it is with long and eventful lifes. So for you to get a better view of it, here it is captured in a single image:
 
-![](doc/images/nietzsche whole page th.png)
+![](doc/images/nietzsche_whole_page_th.png)
 
 ## Structure of a My Résumé
 A My Résumé is made up of different sections. Some of them are mandatory, some are optional. It's up to you how you use them to present yourself to the world.
