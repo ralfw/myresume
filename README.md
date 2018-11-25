@@ -86,5 +86,5 @@ If you were successful in installing the demo résumé then you're ready to set 
 4. Enter your data into the `myresume.json` and add any images to the image sub-folder.
 5. Host your résumé folder on a web server of your choice.
 
-
+Editing the `myresume.json` technically is easy - but the devil is in the details. So please have a look a the [JSON reference](doc/jsonref.md) to avoid frustration during set up of your own My Résumé.
 
