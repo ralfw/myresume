@@ -13,6 +13,7 @@ It's a quite long CV. But that's how it is with long and eventful lifes. So for 
 
 ## Structure of a My Résumé
 A My Résumé is made up of different sections. Some of them are mandatory, some are optional. It's up to you how you use them to present yourself to the world.
+
 ### Title
 You title your My Résumé with an image across the whole page.
 
@@ -77,6 +78,8 @@ If you're interested in setting up a My Résumé maybe first try to host the dem
 
 Now you need to "host" the files in the demo folder as a tiny web site. That means either copy them to a folder on your own homepage server or locally start a web server. (If you happen to have Python installed on your computer you can try to run `python -m http.server` in the demo folder. Nietzsche's My Résumé should then be available at `http://localhost:8000`.)
 
+Alternatively use [zeit.co](https://zeit.co/) to host My Résumé files. The Nietzsche demo résumé is there, too. It's free and very easy: just drag&drop or push them using the `now` client.
+
 ### Roll your own
 If you were successful in installing the demo résumé then you're ready to set up your own My Résumé:
 
@@ -87,4 +90,8 @@ If you were successful in installing the demo résumé then you're ready to set 
 5. Host your résumé folder on a web server of your choice.
 
 Editing the `myresume.json` technically is easy - but the devil is in the details. So please have a look a the [JSON reference](doc/jsonref.md) to avoid frustration during set up of your own My Résumé.
+
+---
+
+For the curious: My Résumé's structure was inspired by the CV hosting service [sumry.me](https://sumry.me) which of course is offering a lot more. So don't take My Résumé as a competition but as a starting point to set up a more visually appealing and structured CV online - from which you can grow even more elaborate and serious presentations of yourselfs.
 
