@@ -91,6 +91,17 @@ If you were successful in installing the demo résumé then you're ready to set 
 
 Editing the `myresume.json` technically is easy - but the devil is in the details. So please have a look a the [JSON reference](doc/jsonref.md) to avoid frustration during set up of your own My Résumé.
 
+#### Switching between My Résumés
+If you point your browser to a folder with a My Résumé `index.html` file the résumé described in `myresume.json` sitting next to `index.html` will be displayed.
+
+For testing purposes at least, though, you might want to host different JSON files next to each other, e.g. `my_full_resume.json` and `my_short_resume.json`.
+
+You can get them displayed by adding a query string like the following to the usual My Résumé web address. If the `index.html` file is accessible via `http://mywebsite.com/myresume` then do like this for example:
+
+`http://mywebsite.com/myresume?myresume=my_full_resume.json`
+
+After `?` add a parameter named `myresume` and assign it the name of your JSON file.
+
 ---
 
 For the curious: My Résumé's structure was inspired by the CV hosting service [sumry.me](https://sumry.me) which of course is offering a lot more. So don't take My Résumé as a competition but as a starting point to set up a more visually appealing and structured CV online - from which you can grow even more elaborate and serious presentations of yourselfs.
