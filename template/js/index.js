@@ -101,7 +101,8 @@ readTextFile(parseParameter("myresume", "./myresume.json"), function(text){
         document.getElementById('myList').innerHTML +=spanObj;      
     }             
 }
-  document.getElementById('header').style.backgroundImage="url("+titleImage+")";
+  //loading images from web
+  document.getElementById('header').style.backgroundImage = "url("+titleImage+")";
   document.getElementById('profile-pic').src=profilePic; 
   document.getElementById('name').innerHTML=name; 
   document.getElementById('position').innerHTML=position; 
