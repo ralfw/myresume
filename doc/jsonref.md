@@ -28,7 +28,7 @@ A `myresume.json` consists of three main parts:
 
 In addition there is a title image (`titleimage`) you should define to be displayed on top of your personal data. Make it large enough to be strechted nicely across the page, eg. at least 1024 pixels wide.
 
-The title image as all images needs to be referenced from the file/folder structure with a local/relative filename staring from where the `myresume.json` file sits.
+The title image as all images needs to be referenced from the file/folder structure with a local/relative filename staring from where the `myresume.json` file sits. (Or you can use a URL pointing to an image on the web somewhere. However, if you do that you run the risk of the link breaking in case the image is deleted or moved.)
 
 The `themecolor` property defines the basic color from which the color for graphic elements in the work history and timeline are derived. You can use color charts like [this](https://www.w3schools.com/colors/colors_names.asp) or [this](https://html-color-codes.info) to find a color that suits you. Just be sure to enter a color value as a hex number with a `#` in front of it. (You can try color names like `Coral`, but numbers let you finetune your color.)
 
